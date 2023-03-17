@@ -1,6 +1,6 @@
 package Sourceclass;
-import javax.servlet.http.*;  
-import javax.servlet.*;  
+import jakarta.servlet.http.*;  
+import jakarta.servlet.*;  
 import java.io.*;
 
 public class DemoServlet extends HttpServlet{  

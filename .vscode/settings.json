@@ -1,0 +1,6 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "maven.view": "hierarchical",
+    "maven.executable.path": "D:/Software/apache-maven-3.9.0/bin/mvn"
+}

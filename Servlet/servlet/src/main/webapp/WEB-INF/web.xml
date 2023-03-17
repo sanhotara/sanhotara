@@ -3,14 +3,14 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
   
 <web-app>   
-<servlet>  
-<servlet-name>sonoojaiswal</servlet-name>  
-<servlet-class>DemoServlet</servlet-class>  
-</servlet>  
-  
-<servlet-mapping>  
-<servlet-name>sonoojaiswal</servlet-name>  
-<url-pattern>/welcome</url-pattern>  
-</servlet-mapping>  
-  
+    <servlet>  
+        <servlet-name>sonoojaiswal</servlet-name>  
+        <servlet-class>Sourceclass.DemoServlet</servlet-class>  
+    </servlet>  
+    
+    <servlet-mapping>  
+        <servlet-name>sonoojaiswal</servlet-name>  
+        <url-pattern>/welcome</url-pattern>  
+    </servlet-mapping>  
+
 </web-app>  
