@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form action="login" method="get">
+        <!--<form action="login" method="get">-->
+        <!-- <form action="welcome.jsp"> -->
+        <form action="welcome">
             <table>
                 <tr>
                     <td>Name:</td>

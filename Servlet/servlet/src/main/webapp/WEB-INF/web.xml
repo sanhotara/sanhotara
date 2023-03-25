@@ -3,14 +3,28 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
   
 <web-app>   
-    <servlet>  
+    <!-- <servlet>  
         <servlet-name>sanhotara</servlet-name>  
         <servlet-class>Sourceclass.DemoServlet</servlet-class>  
-    </servlet>  
-    
+    </servlet>   
     <servlet-mapping>  
         <servlet-name>sanhotara</servlet-name>  
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    -->
+    <servlet>  
+        <servlet-name>sanhotara</servlet-name>  
+        <jsp-file>/welcome.jsp</jsp-file>  
+  
+        <init-param>  
+            <param-name>dname</param-name>  
+            <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+        </init-param>  
+  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>sanhotara</servlet-name>  
+        <url-pattern>/welcome</url-pattern>
     </servlet-mapping>  
 
     <servlet>
