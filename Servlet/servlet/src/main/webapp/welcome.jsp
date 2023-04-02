@@ -1,7 +1,7 @@
 <%@ taglib uri="/WEB-INF/mytags.tld" prefix="tl"%>
 <html>
     <body>
-        <tl:randomNumber/>
+        Here is a random number: <tl:randomNumber/>
         <%
         String name = request.getParameter("userName");
         String pw =  request.getParameter("userPassword");
