@@ -6,5 +6,6 @@
         out.print("Cheer "+user);
         out.print("Here is your password: "+password);
         %>
+        <%@ include file="index.jsp"%>
     </body>
 </html>
