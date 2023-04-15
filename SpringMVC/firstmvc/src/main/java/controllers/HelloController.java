@@ -14,10 +14,15 @@ public class HelloController
     //     model.addAttribute("message","Welcome to Spring MVC journey!");
     //     return "hello";
     // }
-    @RequestMapping(value = "userform", method = RequestMethod.GET)
-	public String showForm() {
-		return "user-form";
-	}	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+    public String welcomePage() {
+      	return "user-form";
+    }
+
+    // @RequestMapping(value = "/userform", method = RequestMethod.GET)
+	// public String showForm() {
+	// 	return "user-form";
+	// }	
 
 	@RequestMapping(value = "showdata", method = RequestMethod.GET)
 	public String showdata() {
