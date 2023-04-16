@@ -2,12 +2,13 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Hello JSP</title>
-</head>
-<body>
-<strong>Hello,</strong>
-${param.username}
-</body>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Hello JSP</title>
+    </head>
+    <body>
+        <strong>Hello,</strong>
+        <!-- ${param.username} -->
+        ${uname}
+    </body>
 </html>
