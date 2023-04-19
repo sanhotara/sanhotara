@@ -1,14 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Response User Data</title>
-</head>
-<body>
-	<h2>${user.name}</h2>
-	<p>Email: ${user.email}</p>
-	<p>Password: ${user.password}</p>
-</body>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Hello JSP</title>
+    </head>
+    <body>
+        <strong>Hello boy,</strong>
+		${uname}
+    </body>
 </html>
