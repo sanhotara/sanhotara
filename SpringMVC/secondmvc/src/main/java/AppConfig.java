@@ -22,5 +22,4 @@ public class AppConfig implements WebMvcConfigurer{
         irv.setOrder(0);
         return irv;
     }
-    
 }
