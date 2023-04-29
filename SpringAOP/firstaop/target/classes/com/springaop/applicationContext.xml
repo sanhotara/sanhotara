@@ -13,4 +13,9 @@
    <aop:aspectj-autoproxy />
    <context:component-scan base-package="com.springaop" />
    <bean id="loggingAspect" class="com.springaop.EmployeeCRUDAspect" />
+   <bean id="employeeDTO" class="com.springaop.EmployeeDTO">
+      <property name="id" value="1"/>
+      <property name="firstName" value="Sang"/>
+      <property name="lastName" value="Bui"/>
+   </bean>
 </beans>
