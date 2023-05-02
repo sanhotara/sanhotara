@@ -1,0 +1,5 @@
+com\springsecurity\config\MainApp.class
+com\springsecurity\config\SecurityAppInitializer.class
+com\springsecurity\controller\HomeController.class
+com\springsecurity\config\SecurityConfig.class
+com\springsecurity\config\MvcConfiguration.class
