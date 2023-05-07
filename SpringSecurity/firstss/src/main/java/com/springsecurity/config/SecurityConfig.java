@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -13,6 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
+@EnableMethodSecurity
 public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
@@ -27,7 +29,7 @@ public class SecurityConfig {
         // .requestMatchers("/index").hasRole("USER")
         //.requestMatchers("/").hasRole("ADMIN")
         .requestMatchers("/java-course").hasRole("USER")
-        .requestMatchers("/premium-courses").hasRole("ADMIN")
+        //.requestMatchers("/premium-courses").hasRole("ADMIN")
         .anyRequest().authenticated()
         )
         .formLogin(withDefaults()) //Using default login page 
